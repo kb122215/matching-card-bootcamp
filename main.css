@@ -11,9 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
-
-  background: #f8efe6;
-  color: #4b3028;
+  background-image: url(matcha\ background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f8efe6;
 }
 
 .card-game {
@@ -33,16 +36,19 @@ header {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 0.75rem;
-  color: #8a9a5b;
+  color: #f8efe6;
 }
 
 h1 {
   margin: 0;
   font-size: 2.7rem;
 }
-
+/* find better colors for acessibility 
+brown color #765c52 
+green color #8a9a5b
+*/
 .instructions {
-  color: #765c52;
+  color: #f8efe6;
 }
 
 .game-info {
@@ -51,6 +57,7 @@ h1 {
   gap: 40px;
   margin: 25px 0;
   font-weight: bold;
+  color: #741213;
 }
 
 .board-game {
@@ -59,6 +66,7 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
 
   gap: 15px;
+  max-width: 700px;
   max-width: 0 auto;
 }
 
